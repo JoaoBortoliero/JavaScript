@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0,139,139);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background: rgb(211,211,211);
+  color: rgb(0,0,0);
+  font-size: 0.7em;
+  font-weight: 550;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 1.5em;
+  border-radius: 6px;
+}
+
+.start:hover {
+  background: rgb(0,255,127);
+}
+
+.pause:hover {
+  background: rgb(255,0,0);
+}
+
+.reset:hover {
+ background: rgb(30,144,255);
+}
+
+.clock {
+  font-size: 3em;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>Register</title>
+</head>
+<body>
+  <section class="container">
+    <h1>Registration form</h1>
+    <ul>
+      <li> All fields must be filled</li>
+      <li> The username can contain letters and/or numbers</li>
+      <li> The username must contain between 3 and 12 characters</li>
+      <li> The password must contain between 6 and 12 characters</li>
+    </ul>
+
+    <form action="/" method="post" class="form">
+      <label>Name</label>
+      <input type="text" class="name validate">
+      <label>Last Name</label>
+      <input type="text" class="last-name validate">
+      <label>CPF</label>
+      <input type="text" class="cpf validate"> 
+      <label>User</label> 
+      <input type="text" class="user validate"> 
+      <label>Password</label> 
+      <input type="password" class="password validate">
+      <label>Repeat Password</label>
+      <input type="password" class="repeat-password validate">
+      <button type="submit" class="submit"> Send </button>
+    </form>
+  </section>
+
+  <script src="assets/js/validateCpf.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>     
